@@ -1,0 +1,12 @@
+# Cài thêm cho phần RAG (giữ nguyên requirements.txt của bot)
+# Additional libraries for RAG
+ollama
+chromadb
+pymupdf
+python-docx
+python-dotenv
+pytest
+
+# Cài thêm thư viện cho Telegram bot
+# Additional library for Telegram bot
+python-telegram-bot==20.3
