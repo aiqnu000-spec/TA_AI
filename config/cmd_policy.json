@@ -8,5 +8,4 @@
               "powershell", "pwsh", "cmd", "wsl", "bash", "curl", "wget", "certutil",
               "bitsadmin", "mshta", "rundll32", "wscript", "cscript", "schtasks", "netsh",
               "python", "py", "node", "sc", "takeown", "icacls"],
-
 }
