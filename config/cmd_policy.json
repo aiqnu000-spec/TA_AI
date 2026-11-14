@@ -1,0 +1,12 @@
+{
+  "_ghi_chu": "Mặc định TỪ CHỐI. Lệnh phải nằm trong 'safe' (chạy ngay) hoặc 'confirm' (phải bấm xác nhận). 'blocked' luôn bị chặn. Sửa file này không cần khởi động lại bot.",
+  "safe": ["dir", "echo", "type", "whoami", "hostname", "ipconfig", "ping", "tasklist",
+           "systeminfo", "ver", "tree", "where", "nslookup", "netstat"],
+  "confirm": ["del", "erase", "rmdir", "rd", "mkdir", "md", "move", "copy", "xcopy",
+              "ren", "rename", "taskkill", "shutdown", "start", "net"],
+  "blocked": ["format", "diskpart", "bcdedit", "cipher", "reg", "regedit", "vssadmin", "wmic",
+              "powershell", "pwsh", "cmd", "wsl", "bash", "curl", "wget", "certutil",
+              "bitsadmin", "mshta", "rundll32", "wscript", "cscript", "schtasks", "netsh",
+              "python", "py", "node", "sc", "takeown", "icacls"],
+  "blocked_patterns": ["\\.env\\b", "\\bTELEGRAM_TOKEN\\b", "\\bRAG_BOT_TOKEN\\b"]
+}
