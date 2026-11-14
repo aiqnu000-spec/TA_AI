@@ -1,0 +1,20 @@
+[
+  {
+    "q": "THAY BẰNG câu hỏi có đáp án nằm trong 1 tài liệu của bạn",
+    "expect_source": "ten_file_chua_dap_an.pdf",
+    "expect_text": ["từ khóa 1", "từ khóa 2"]
+  },
+  {
+    "q": "THAY BẰNG câu hỏi thứ hai",
+    "expect_source": "ten_file_khac.docx",
+    "expect_text": ["từ khóa"]
+  },
+  {
+    "q": "Giá bitcoin hôm nay là bao nhiêu?",
+    "should_refuse": true
+  },
+  {
+    "q": "Công thức nấu phở bò?",
+    "should_refuse": true
+  }
+]
